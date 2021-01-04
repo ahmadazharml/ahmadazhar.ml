@@ -1,0 +1,583 @@
+@charset "utf-8";
+
+body{
+	width: 100%;
+	padding: 0;
+	
+}
+
+#page {
+	width: 1008px;
+	margin: 6px 15% 0px;
+}
+
+#header {
+	
+}
+
+#logo {
+	display:block;
+	width:148px;
+	height:78px;
+	float: left;
+	margin: 0px 2px 0px 0px;
+	background:url(images/Logo.png) no-repeat 0 0;
+}
+
+a:hover#logo, a:focus#logo {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/Logo.png) no-repeat 0 -78px;
+}
+
+a:active#logo, a:focus#logo {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/Logo.png) no-repeat 0 -156px;
+}
+
+#first_menu {
+	display:block;
+	width:88px;
+	height:30px;
+	background:#ff0;
+	float: left;
+	margin: 25px 4px 0px 8px;
+	background:url(images/sign_up.png) no-repeat 0 0;
+}
+
+a:hover#first_menu, a:focus#first_menu {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/sign_up.png) no-repeat 0 -30px;
+}
+
+a:active#first_menu, a:focus#first_menu {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/sign_up.png) no-repeat 0 -60px;
+}
+
+#second_menu {
+	display:block;
+	width:88px;
+	height:30px;
+	background:#fff;
+	float: left;
+	margin: 25px 4px 0px 4px;
+	background:url(images/ole.png) no-repeat 0 0;
+}
+
+a:hover#second_menu, a:focus#second_menu {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/ole.png) no-repeat 0 -30px;
+}
+
+a:active#second_menu, a:focus#second_menu {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/ole.png) no-repeat 0 -60px;
+}
+
+#nav_header {
+	background: url(images/header.png) no-repeat 0 0;
+	margin: 0px 0px 0px 2px;
+	float:left;
+	width:856;
+}
+
+#third_menu {
+	display:block;
+	width:88px;
+	height:30px;
+	background:#fff;
+	float: left;
+	margin: 25px 4px 15px 4px;
+	background:url(images/ole_list.png) no-repeat 0 0;
+}
+
+a:hover#third_menu, a:focus#third_menu {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/ole_list.png) no-repeat 0 -30px;
+}
+
+a:active#third_menu, a:focus#third_menu {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/ole_list.png) no-repeat 0 -60px;
+}
+
+#search_form {
+	background:url(images/form_body.png) no-repeat 0 0;
+	display:block;
+	width:250px;
+	height:31px;
+	margin: 0px 4px 0px 0px;
+}
+
+#form {
+		margin: 25px 0px 15px 8px;
+		float:left;
+}
+
+#search {
+        padding: auto;
+		margin: 6px 2px 4px 5px;
+        height: 18px;
+        width: 187px;
+        border: 1px solid #bfbfba;
+        font: normal 12px Arial;
+        background: #f1f1f1;
+		float: left;
+
+        -moz-border-radius: 15px 3px 3px 15px;
+         border-radius: 15px 3px 3px 15px;
+         -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+         -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+#web_button {
+	margin: 4px 4px 4px 0px;
+	float:right;
+	display:block;
+	width:50px;
+	height:23px;
+	background:url(images/submit.png) no-repeat 0 0;
+	/* Hide "Buy now" text by moving it beyond
+	*  the browser viewport */
+	text-indent:-9999px;
+	/* Because of outline:none, we must visually style 
+	 * :focus property for web accessibility */
+	outline:none;
+}
+
+a:hover#web_button, a:focus#web_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/submit.png) no-repeat 0 -23px;
+}
+
+a:active#web_button, a:focus#web_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/submit.png) no-repeat 0 -46px;
+}
+
+#facebook {
+	display:block;
+	width:31px;
+	height:31px;
+	background:#fff;
+	float: left;
+	margin: 25px 4px 25px 8px;
+	background:url(images/facebook.png) no-repeat 0 0;
+}
+
+a:hover#facebook, a:focus#facebook {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/facebook.png) no-repeat 0 -31px;
+}
+
+a:active#facebook, a:focus#facebook {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/facebook.png) no-repeat 0 -62px;
+}
+
+#twitter {
+	display:block;
+	width:31px;
+	height:31px;
+	background:#fff;
+	float: left;
+	margin: 25px 4px 25px 8px;
+	background:url(images/twitter.png) no-repeat 0 0;
+}
+
+a:hover#twitter, a:focus#twitter {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/twitter.png) no-repeat 0 -31px;
+}
+
+a:active#twitter, a:focus#twitter {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/twitter.png) no-repeat 0 -62px;
+}
+
+#m {
+	display:block;
+	width:31px;
+	height:31px;
+	background:#fff;
+	float: left;
+	margin: 25px 4px 25px 8px;
+	background:url(images/m.png) no-repeat 0 0;
+}
+
+a:hover#m, a:focus#m {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/m.png) no-repeat 0 -31px;
+}
+
+a:active#m, a:focus#m {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/m.png) no-repeat 0 -62px;
+}
+
+#ymdb {
+	display:block;
+	width:71px;
+	height:67px;
+	background:#fff;
+	float: left;
+	margin: 6px 4px 0px 20px;
+	background:url(images/ymdb.png) no-repeat 0 0;
+}
+
+a:hover#ymdb, a:focus#ymdb {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/ymdb.png) no-repeat 0 -67px;
+}
+
+a:active#ymdb, a:focus#ymdb {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/ymdb.png) no-repeat 0 -134px;
+}
+
+#sponsor {
+	margin: 6px 0px 0px 8px;
+	float: left;
+}
+
+#cart {
+	display:block;
+	width:27px;
+	height:38px;
+	background:#fff;
+	float: left;
+	margin: 22px 10px 10px 30px;
+	background:url(images/bag_blue.png) no-repeat 0 0;
+}
+
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+
+#left_sidebar {
+	float:left;
+	width:152px;
+}
+
+#sign_in {
+	background:url(images/sign_in.png) no-repeat 0 0;
+	float:left;
+	width: 152px;
+	height: 258px;
+	margin: 0px 0px 0px 0px;
+}
+
+#menu {
+	margin:4px 0px 0px 0px;
+	float:left;
+	
+}
+
+.one_line_button {
+	display:block;
+	width:152px;
+	height:55px;
+	background:url(images/one_line_button.png) no-repeat 0 0;
+	/* Hide "Buy now" text by moving it beyond
+	*  the browser viewport */
+	text-indent:-9999px;
+	/* Because of outline:none, we must visually style 
+	 * :focus property for web accessibility */
+	outline:none;
+	margin: 0px 0px 2px 0px;
+}
+
+a:hover.one_line_button, a:focus.one_line_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/one_line_button.png) no-repeat 0 -55px;
+}
+
+a:active.one_line_button, a:focus.one_line_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/one_line_button.png) no-repeat 0 -110px;
+}
+
+.two_lines_button {
+	display:block;
+	width:152px;
+	height:66px;
+	background:url(images/two_lines.png) no-repeat 0 0;
+	/* Hide "Buy now" text by moving it beyond
+	*  the browser viewport */
+	text-indent:-9999px;
+	/* Because of outline:none, we must visually style 
+	 * :focus property for web accessibility */
+	outline:none;
+	margin: 0px 0px 2px 0px;
+}
+
+a:hover.two_lines_button, a:focus.two_lines_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/two_lines.png) no-repeat 0 -66px;
+}
+
+a:active.two_lines_button, a:focus.one_lines_button {
+	/* -50px positions the background on the bottom
+	*  half of our background image */
+	background:url(images/two_lines.png) no-repeat 0 -132px;
+}
+
+#hers {
+	background:url(images/Hers.png) no-repeat 0 0;
+	width:50px;
+	height:20px;
+	margin: 15px 0px 0px 50px;
+	float: left;
+}
+
+#mens_store {
+	background:url(images/mens_store.png) no-repeat 0 0;
+	width:107px;
+	height:17px;
+	margin: 20px 0px 0px 23px;
+	float: left;
+}
+
+#kids_toddlers {
+	background:url(images/kids_toddlers.png) no-repeat 0 0;
+	width:87px;
+	height:43px;
+	margin: 12px 0px 0px 33px;
+	float: left;
+}
+
+#baby {
+	background:url(images/baby.png) no-repeat 0 0;
+	width:150px;
+	height:20px;
+	margin: 20px 0px 0px 55px;
+	float: left;
+}
+
+#home_garden {
+	background:url(images/home_garden.png) no-repeat 0 0;
+	width:74px;
+	height:42px;
+	margin: 12px 0px 0px 40px;
+	float: left;
+}
+
+#gourmet {
+	background:url(images/Gourmet.png) no-repeat 0 0;
+	width:71px;
+	height:24px;
+	margin: 18px 0px 0px 40px;
+	float: left;
+}
+
+#flower_gifts {
+	background:url(images/Flower_Gift.png) no-repeat 0 0;
+	width:95px;
+	height:42px;
+	margin: 10px 0px 0px 30px;
+	float: left;
+}
+
+#arts_craft {
+	background:url(images/arts_crafts.png) no-repeat 0 0;
+	width:68px;
+	height:38px;
+	margin: 15px 0px 0px 45px;
+	float: left;
+}
+
+#services {
+	background:url(images/services.png) no-repeat 0 0;
+	width:87px;
+	height:22px;
+	margin: 17px 0px 0px 33px;
+	float: left;
+}
+
+#wedding {
+	background:url(images/Wedding.png) no-repeat 0 0;
+	width:76px;
+	height:17px;
+	margin: 18px 0px 0px 39px;
+	float: left;
+}
+
+#vintage_antique{
+	background:url(images/vintage.png) no-repeat 0 0;
+	width:75px;
+	height:48px;
+	margin: 10px 0px 0px 39px;
+	float: left;
+}
+
+#gadgets {
+	background:url(images/gadgets.png) no-repeat 0 0;
+	width:76px;
+	height:22px;
+	margin: 18px 0px 0px 39px;
+	float: left;
+}
+
+#books_magazine {
+	background:url(images/books_magazine.png) no-repeat 0 0;
+	width:85px;
+	height:38px;
+	margin: 15px 0px 0px 35px;
+	float: left;
+}
+
+#toys_hobbies {
+	background:url(images/toys.png) no-repeat 0 0;
+	width:76px;
+	height:42px;
+	margin: 13px 0px 0px 39px;
+	float: left;
+}
+
+#health_beauty {
+	background:url(images/health.png) no-repeat 0 0;
+	width:87px;
+	height:45px;
+	margin: 12px 0px 0px 36px;
+	float: left;
+}
+
+#electrics_electronic {
+	background:url(images/electronics.png) no-repeat 0 0;
+	width:136px;
+	height:36px;
+	margin: 14px 0px 0px 18px;
+	float: left;
+}
+
+#sports_outdoors{
+	background:url(images/sports.png) no-repeat 0 0;
+	width:95px;
+	height:42px;
+	margin: 12px 0px 0px 30px;
+	float: left;
+}
+
+#eco_green {
+	background:url(images/eco.png) no-repeat 0 0;
+	width:116px;
+	height:14px;
+	margin: 22px 0px 0px 19px;
+	float: left;
+}
+
+#charity_lane {
+	background:url(images/charity.png) no-repeat 0 0;
+	width:130px;
+	height:15px;
+	margin: 20px 0px 0px 11.5px;
+	float: left;
+}
+
+#contents {
+	float:left;
+	background: #fff;
+	width:670px;
+	margin:2px 0px 0px 19px;
+	
+}
+
+div.front_product_cell
+{
+  float: left;
+  border: 1px solid #BDBDBD;
+  height: 143px;
+  width: 128px;
+  text-align: center;
+  font-size: 13px;
+  margin: 1px;
+}	
+.front_product_cell img{
+  display: inline;
+  margin: 1px;
+  border: 1px solid #ffffff;
+  width:120px;
+  height:100px;
+}
+.front_product_description{
+line-height: 8px;
+display: inline;
+list-style-type:none;
+}
+.front_product_price {
+color: #78C042;
+text-align:right;
+margin-top:-8px;
+font-size: 11px;
+}
+.front_product_shop_name{
+text-align:left;
+}
+ 
+#right_sidebar {
+	background:url(images/right_sidebar.png) no-repeat 0 0;
+	width:153px;
+	height:1493px;
+	margin: 2px 0px 0px 0px;
+	float: right;
+}
+
+#footer {
+	clear: both;
+	width:1008px;
+	margin: 35px 15% 35px;
+}
+
+#footer_wording,#shop_footer {
+	background-color:#F2F2F2;
+	font-family:Orator Std;
+	color:#00B1F1;
+}
+
+#footer_wording a,#shop_footer a {
+	font-family:Orator Std;
+	color:#00B1F1;
+	text-decoration:none;
+	text-decoration:none;
+}
+
+#footer_wording a:visited,#shop_footer a:visited{
+	color:#00B1F1;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
